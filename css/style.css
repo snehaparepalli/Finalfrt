@@ -1,0 +1,187 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+@fontface{
+    myfont:url(../font/Roboto-Regular.ttf)
+}
+body{
+    font-family:myfont; text-align: justify;
+}
+.container-fluid{
+		width:100%; height:auto; float:left;
+}
+.container{
+		width:100%; height: auto; margin:0 auto; max-width:1170px;
+}
+header{
+  float:left; width:100%; height:655px;
+}
+#banner{
+  width:100%; height:655px;
+  background-image: url(../images/banner.jpg);
+  background-position: center center;
+  background-repeat:no-repeat; background-size: cover;
+  background-attachment:fixed;
+}
+.nav_area{
+  widht:100%; height:100px; max-width: 1400px;
+  background-size: cover;
+  /*background-color: #111;*/
+}
+#logo{
+  widht:100%; height:40px; max-width:170px;
+  /*background-color: #ccf;*/margin:30px 0 0 55px;
+  float:left; cursor:pointer;
+}
+nav{
+		width:100%; max-width:510px; height:100px;
+		float:left; margin-left:127px;/*background-color:#cff;*/
+}
+nav ul{
+  margin:0; padding:0; list-style-type:none;
+}
+nav ul li{
+  float:left;
+}
+nav ul li a{
+  padding:10px; font-size:20px; color:#fff;
+  line-height:100px;dispaly:block;
+}
+nav ul li a:hover{
+  cursor:pointer;
+  background-color:#91262e;
+}
+.social{
+  width:100; height:31px; float:right; margin:32px 110px  0 0 ;
+  max-width:300px;/*background-color: #666;*/
+}
+.icons{
+  width:100%; height:31px; max-width:31px;
+  float:right; margin:32px 20px 0 0; cursor:pointer;
+}
+.banner_txt{
+  width:100%; height:auto; text-align:center;
+  color:#fff; font-size:30px; margin-top:277px;
+  float:left;
+}
+.wellcome_area{
+  width:100%; height:300px;
+  background-color: #c3bebe; backgruond-size:cover;
+}
+.b_txt{
+  width:100%; height:auto;
+  color:#4e4c4c; margin-top:70px; text-align:center;
+  float:left; font-size:40px;
+}
+.s_txt{
+  width:100%; height:auto;
+  color:#605d5d; margin-top:20px; text-align:justify;
+  float:left; font-size:24px;padding:0 130px;
+}
+.books_area{
+  width:100%; height:480px;/* background-color: #ccc;*/
+  overflow: hidden; float: left; margin-top: 36px;
+}
+.book1{
+  width:100%; height:480px; max-width: 360px;
+  float:left; margin:0 15px;
+}
+.books{
+  widht:100% ; max-width: 360px; height: 357px;
+  cursor:pointer;
+}
+.about_books{
+  widht:100%; height:auto; color:#555;
+  margin-top:12px;
+}
+h2{
+  width:100%; height:auto; text-align: center;
+  color: #333;
+}
+p{
+  width:100%; height:auto; text-align:justify;
+  color: #555;font-size: 18px;
+}
+.poster_txt{
+  width:100%; height:117px; background-color: #c3bebe;
+  overflow: hidden;margin-top:36px; text-align: center;
+  color:#555; padding:50px 0; font-size:30px;
+
+}
+.poster{
+  width:100%; height:466px;
+  background-color:#3f3c3c; background-size:cover;
+
+}
+.pic_area{
+  width:100%; height:466px;
+  background-image:url(../images/poster.jpg);
+  background-repeat:no-repeat; background-size:cover;
+  background-attachment: fixed; position: center center;
+}
+.pic_txt{
+  width:100%; height:auto; max-width:500px;
+  float:left; color:#ddd; font-size:22px;
+  text-align:justify; margin:150px 0 0 130px;
+}
+.box_txt{
+  width:100%; height:466px;
+  float:right;max-width: 360px; margin-right: 20px;
+  background-color:#333; font-size:20px; color:#ddd;
+  text-align:justify;padding:20px; padding-top:60px;
+}
+.orthor_heading{
+  width:100%; height:112px;
+  background-color:#c3bebe;
+  font-size:30px; text-align:center;
+  color:#333; padding:40px 0; background-size: cover;
+
+}
+.author_area{
+  width:100%; height:610px; max-width:1010px;
+  /*background-color:#cca;*/float:left;
+  margin:52px 0 0 83px;
+}
+.aurthor1{
+  width:100%; height:172px;max-width: 1010px;
+  /*background-color:black;*/ margin-bottom:45px;
+  float:left;
+}
+.aurthor_pic{
+  width:100%; height:172px; max-width: 165px;
+  float:left; cursor:pointer;
+}
+.aurthor_txt{
+  width:100%; height:172px; max-width:780px;
+  margin-left:60px; background-color: #c3bebe;
+  float:left;
+}
+.name{
+  whidth:100%; height:auto; font-size:26px;
+  color:#444; margin:20px 0 0 68px;
+}
+.about{
+  width:100%; hegiht:auto; font-size:20px;
+  max-width: 618px; text-align:justify;
+  color:#666; margin:40px 0 0 68px;
+}
+footer{
+  width:100%; height:708px;
+  margin-top: 50px; background-color: #111;
+
+}
+#footerbanner{
+  width:100%; height:617px;
+  background-color:#fac;
+  background-image:url(../images/footer_banner.jpg);
+  background-size:cover; background-attachment:fixed;
+  background-repeat:none;
+}
+.footer_txt{
+  width:100%; height:auto; text-align: center;
+  font-size:36px; color: #ddd; margin-top:300px;
+  float:left;
+}
+.copyright_area{
+  width:100%; height:90px; background-color: #d3d3d3;
+  text-align:center;float:left; padding:30px; color:#777;
+  font-size: 20px;
+}
