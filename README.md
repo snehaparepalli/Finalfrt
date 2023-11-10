@@ -1,6 +1,6 @@
 Azure Project
 
-SnehaPharmacy
+Books Store
 
 Project Statement:
 To create a web application for the students to access the free resources for their career progress with different categories.
